@@ -27,23 +27,21 @@ Panduan komprehensif untuk pemrograman web ini menggabungkan konsep dasar dengan
 
 ## 📖 Daftar Isi
 
-```
-📂 Book Structure
-├── 📑 1. Bagaimana Aplikasi Web Bekerja?
-├── 📑 2. Mengenal HTML
-├── 📑 3. Mengenal CSS
-├── 📑 4. Tabel, Formulir, Layout dan Web Media
-├── 📑 5. Pemrograman Javascript
-├── 📑 6. The Next Generation Javascript
-├── 📑 7. Bekerja Dengan Framework React Js
-├── 📑 8. Pemrograman Python
-├── 📑 9. Object Oriented Programming di Python
-├── 📑 10. Bekerja dengan Framework Python Pyramid
-├── 📑 11. Bekerja dengan Basis Data PostgreSQL
-├── 📑 12. Membuat Aplikasi Pendataan Stunting
-├── 📑 13. Implementasi Web di sisi Server
-└── 📑 14. Implementasi Web di Sisi Client
-```
+- 📑 1. Bagaimana Aplikasi Web Bekerja?
+- 📑 2. Mengenal HTML
+- 📑 3. Mengenal CSS
+- 📑 4. Tabel, Formulir, Layout dan Web Media
+- 📑 5. Pemrograman Javascript
+- 📑 6. The Next Generation Javascript
+- 📑 7. Bekerja Dengan Framework React Js
+- 📑 8. Pemrograman Python
+- 📑 9. Object Oriented Programming di Python
+- 📑 10. Bekerja dengan Framework Python Pyramid
+- 📑 11. Bekerja dengan Basis Data PostgreSQL
+- 📑 12. Membuat Aplikasi Pendataan Stunting
+- 📑 13. Implementasi Web di sisi Server
+- 📑 14. Implementasi Web di Sisi Client
+
 ---
 
 ## ✨ Fitur Utama
@@ -64,31 +62,11 @@ Panduan komprehensif untuk pemrograman web ini menggabungkan konsep dasar dengan
 
 ## 💻 Prasyarat
 
-```
-Keterampilan yang Dibutuhkan
-┌─────────────┐  ┌──────────┐  ┌─────────────┐
-│Python Dasar │  │HTML Dasar│  │Dasar Command│
-│             │  │CSS & JS  │  │    Line     │
-└─────────────┘  └──────────┘  └─────────────┘
-```
-
 - Python 3.7 atau lebih tinggi
 - Node.js dan npm
 - Editor teks (disarankan VS Code)
 - Pemahaman dasar tentang konsep web
   
----
-
-### Jalur Belajar
-
-```
-Minggu 1-2   Minggu 3-4   Minggu 5-6   Week 7-8
-[HTML]──▶[Python]──▶[React]──▶[Project]
-  │         │          │          │
-  ▼         ▼          ▼          ▼
-Basics   Backend    Frontend   Full Stack
-```
-
 ---
 
 ## 💻 Tech Stack
