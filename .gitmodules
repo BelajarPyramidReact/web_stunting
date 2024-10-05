@@ -1,0 +1,6 @@
+[submodule "web_stunting_be"]
+	path = web_stunting_be
+	url = https://github.com/LearnPyramidReact/web_stunting_be
+[submodule "web_stunting_fe"]
+	path = web_stunting_fe
+	url = https://github.com/LearnPyramidReact/web_stunting_fe
