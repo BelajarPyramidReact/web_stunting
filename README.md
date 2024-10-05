@@ -3,13 +3,13 @@
 
 ## 📚 Author
 
-| Name | Role |
+| Nama | Posisi |
 |------|------|
-| **Muhammad Habib Algifari** | Lead Author, Web Development Expert |
-| **Eko Dwi Nugroho** | Senior Developer, Backend Specialist |
-| **Alya Khairunnisa Rizkita** | Frontend Developer, UI/UX Expert |
-| **Ahmad Fadillah** | Database Architect, System Analyst |
-| **Daffa Abdurrahman Jatmiko** | Technical Writer, Quality Assurance |
+| **Muhammad Habib Algifari** | Dosen Informatika ITERA |
+| **Eko Dwi Nugroho** | Dosen Informatika ITERA |
+| **Alya Khairunnisa Rizkita** | Asisten Dosen Informatika ITERA |
+| **Ahmad Fadillah** | Mahasiswa Informatika ITERA |
+| **Daffa Abdurrahman Jatmiko** | Mahasiswa Informatika ITERA |
 
 ---
 
@@ -27,6 +27,7 @@ Panduan komprehensif untuk pemrograman web ini menggabungkan konsep dasar dengan
 
 ## 📖 Daftar Isi
 
+```
 📂 Book Structure
 ├── 📑 1. Bagaimana Aplikasi Web Bekerja?
 ├── 📑 2. Mengenal HTML
@@ -42,7 +43,7 @@ Panduan komprehensif untuk pemrograman web ini menggabungkan konsep dasar dengan
 ├── 📑 12. Membuat Aplikasi Pendataan Stunting
 ├── 📑 13. Implementasi Web di sisi Server
 └── 📑 14. Implementasi Web di Sisi Client
-
+```
 ---
 
 ## ✨ Fitur Utama
