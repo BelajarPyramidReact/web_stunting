@@ -59,6 +59,214 @@
   </tr>
 </table>
 
+## 💫 System Design
+
+Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
+
+### 🎯 Overview
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://via.placeholder.com/800x400" alt="System Overview" style="width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+    <td width="50%" valign="top">
+      <h4>Key Components</h4>
+      <ul>
+        <li>🔐 Authentication System</li>
+        <li>📊 Data Management</li>
+        <li>📈 Analytics Engine</li>
+        <li>🔄 Real-time Updates</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 📊 System Flow
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400" alt="System Flow" style="max-width: 800px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
+### 🔄 Use Cases
+
+<table>
+  <tr>
+    <td width="60%">
+      <img src="https://via.placeholder.com/800x400" alt="Use Case Diagram" style="width:100%; border-radius: 8px;">
+    </td>
+    <td width="40%" valign="top">
+      <h4>Actor: Petugas Kesehatan</h4>
+      <ul>
+        <li>✍️ Pendaftaran Anak</li>
+        <li>📏 Pengukuran Antropometri</li>
+        <li>📋 Manajemen Riwayat Kesehatan</li>
+        <li>📊 Analisis & Pelaporan</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 🔄 Activity Flows
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="flow-card">
+    <h4>📝 Pendaftaran Anak</h4>
+    <imgsrc="https://via.placeholder.com/800x400" alt="Activity - Registration">
+  </div>
+  <div class="flow-card">
+    <h4>📏 Pengukuran Antropometri</h4>
+    <img src="https://via.placeholder.com/800x400" alt="Activity - Antropometri">
+  </div>
+  <div class="flow-card">
+    <h4>🏥 Riwayat Kesehatan</h4>
+    <img src="https://via.placeholder.com/800x400" alt="Activity - Health History">
+  </div>
+  <div class="flow-card">
+    <h4>📊 Analisis Data</h4>
+    <img src="https://via.placeholder.com/800x400" alt="Activity - Data Analysis">
+  </div>
+</div>
+
+### 🔄 Sequence Flows
+
+<details>
+<summary>📝 Pendaftaran Anak</summary>
+<img src="https://via.placeholder.com/800x400" alt="Sequence - Registration">
+</details>
+
+<details>
+<summary>📏 Pengukuran Antropometri</summary>
+<img src="https://via.placeholder.com/800x400" alt="Sequence - Antropometri">
+</details>
+
+<details>
+<summary>🏥 Riwayat Kesehatan</summary>
+<img src="https://via.placeholder.com/800x400" alt="Sequence - Health">
+</details>
+
+### 📦 Data Model
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4>Class Diagram</h4>
+      <img src="https://via.placeholder.com/800x400" alt="Class Diagram" style="width:100%;">
+    </td>
+    <td width="50%">
+      <h4>ERD</h4>
+      <img src="https://via.placeholder.com/800x400" alt="ERD" style="width:100%;">
+    </td>
+  </tr>
+</table>
+
+### 🎨 UI/UX Design
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="design-card">
+    <h4>📱 Dashboard</h4>
+    <img src="https://via.placeholder.com/800x400" alt="UI - Dashboard">
+    <ul>
+      <li>🎯 Overview status stunting</li>
+      <li>📊 Quick stats & metrics</li>
+      <li>🔔 Notifikasi & alerts</li>
+    </ul>
+  </div>
+  
+  <div class="design-card">
+    <h4>📝 Form Pendaftaran</h4>
+    <img src="https://via.placeholder.com/800x400" alt="UI - Registration">
+    <ul>
+      <li>✨ Multi-step form</li>
+      <li>🔄 Real-time validation</li>
+      <li>📸 Photo upload</li>
+    </ul>
+  </div>
+  
+  <div class="design-card">
+    <h4>📏 Antropometri</h4>
+    <img src="https://via.placeholder.com/800x400" alt="UI - Antropometri">
+    <ul>
+      <li>📈 Interactive charts</li>
+      <li>🔄 Real-time updates</li>
+      <li>📊 Progress tracking</li>
+    </ul>
+  </div>
+  
+  <div class="design-card">
+    <h4>🏥 Riwayat Kesehatan</h4>
+    <img src="https://via.placeholder.com/800x400" alt="UI - Health History">
+    <ul>
+      <li>📅 Timeline view</li>
+      <li>🔍 Advanced search</li>
+      <li>📑 Document management</li>
+    </ul>
+  </div>
+</div>
+
+### 🔗 Data Relationships
+
+```mermaid
+graph LR
+    PK[Petugas Kesehatan] --1:N--> A[Anak]
+    A --1:N--> PA[Pengukuran Antropometri]
+    A --1:1--> RK[Riwayat Kesehatan]
+    RK --1:N--> I[Imunisasi]
+```
+
+
+<style>
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flow-card, .design-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flow-card img, .design-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+details {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details img {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0.5rem;
+}
+
+td {
+  vertical-align: top;
+}
+</style>
+
 ## 🏗️ Arsitektur
 
 Proyek ini menggunakan repository dengan dua submodule utama:
