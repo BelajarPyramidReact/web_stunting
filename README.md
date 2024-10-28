@@ -214,59 +214,6 @@ graph LR
     RK --1:N--> I[Imunisasi]
 ```
 
-
-<style>
-.grid {
-  display: grid;
-  gap: 1rem;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.flow-card, .design-card {
-  background: #ffffff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.flow-card img, .design-card img {
-  width: 100%;
-  border-radius: 4px;
-  margin: 0.5rem 0;
-}
-
-details {
-  margin: 1rem 0;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-}
-
-details summary {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-details img {
-  margin-top: 1rem;
-  width: 100%;
-  border-radius: 4px;
-}
-
-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0.5rem;
-}
-
-td {
-  vertical-align: top;
-}
-</style>
-
 ## 🏗️ Arsitektur
 
 Proyek ini menggunakan repository dengan dua submodule utama:
