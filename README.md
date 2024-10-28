@@ -150,5 +150,5 @@ Untuk melihat koleksi lengkap JSON Postman, kunjungi [tautan ini](https://drive.
 ---
 
 <div align="center">
-  Made with ❤️ for better healthcare monitoring
+  Thank You For Your Contributtions
 </div>
