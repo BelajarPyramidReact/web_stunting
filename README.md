@@ -67,10 +67,10 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="80%">
       <img src="./assets/stunting_system_design.png" alt="System Overview" style="width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
-    <td width="50%" valign="top">
+    <td width="20%" valign="top">
       <h4>Komponen Utama</h4>
       <ul>
         <li>🧒 Pendaftaran Anak</li>
