@@ -104,24 +104,22 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 
 ### 🔄 Activity Flows
 
-<div class="grid grid-cols-2 gap-4">
-  <div class="flow-card">
-    <h4>📝 Pendaftaran Anak</h4>
+  <details class="flow-card">
+    <summary>📝 Pendaftaran Anak</summary>
     <img src="./assets/stunting_activity_1.png" alt="Activity - Registration">
-  </div>
-  <div class="flow-card">
-    <h4>📏 Pengukuran Antropometri</h4>
+  </details>
+  <details class="flow-card">
+    <summary>📏 Pengukuran Antropometri</summary>
     <img src="./assets/stunting_activity_2.png" alt="Activity - Antropometri">
-  </div>
-  <div class="flow-card">
-    <h4>🏥 Riwayat Kesehatan</h4>
+  </details>
+  <details class="flow-card">
+    <summary>🏥 Riwayat Kesehatan</summary>
     <img src="/assets/stunting_activity_3.png" alt="Activity - Health History">
-  </div>
-  <div class="flow-card">
-    <h4>📊 Analisis Data</h4>
+  </details>
+  <details class="flow-card">
+    <summary>📊 Analisis Data</summary>
     <img src="/assets/stunting_activity_4.png" alt="Activity - Data Analysis">
-  </div>
-</div>
+  </details>
 
 ### 🔄 Sequence Flows
 
