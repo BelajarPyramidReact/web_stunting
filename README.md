@@ -147,28 +147,24 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 
 <table>
   <tr>
-    <td width="50%">
-      <h4>Contoh Class Diagram</h4>
-      <img src="./assets/stunting_class_1.png" alt="Class Diagram" style="width:100%;">
-    </td>
-    <td width="50%">
+    <td width="100%">
       <h4>Class Diagram Aplikasi Pendataan Stunting</h4>
       <img src="./assets/stunting_class_2.png" alt="ERD" style="width:100%;">
     </td>
   </tr>
 </table>
 
-### 🎨 UI/UX Design
+### 🎨 Desain UI/UX
 
 <div class="grid grid-cols-2 gap-4">
   
   <div class="design-card">
-    <h4>📝 Form Pendaftaran</h4>
-    <img src="./assets/stunting_wireframe_1.png" alt="UI - Registration">
+    <h4>📝 Formulir Pendaftaran Anak</h4>
+    <img src="./assets/stunting_wireframe_1.png" alt="UI - Pendaftaran">
     <ul>
-      <li>✨ Multi-step form</li>
-      <li>🔄 Real-time validation</li>
-      <li>📸 Photo upload</li>
+      <li>✨ Formulir multi-step</li>
+      <li>🔄 Validasi data</li>
+      <li>📸 Unggah foto</li>
     </ul>
   </div>
   
@@ -176,19 +172,19 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
     <h4>📏 Antropometri</h4>
     <img src="./assets/stunting_wireframe_2.png" alt="UI - Antropometri">
     <ul>
-      <li>📈 Interactive charts</li>
-      <li>🔄 Real-time updates</li>
-      <li>📊 Progress tracking</li>
+      <li>📈 Grafik interaktif</li>
+      <li>🔄 Pembaruan secara real-time</li>
+      <li>📊 Pelacakan kemajuan</li>
     </ul>
   </div>
   
   <div class="design-card">
     <h4>🏥 Riwayat Kesehatan</h4>
-    <img src="./assets/stunting_wireframe_3.png" alt="UI - Health History">
+    <img src="./assets/stunting_wireframe_3.png" alt="UI - Riwayat Kesehatan">
     <ul>
-      <li>📅 Timeline view</li>
-      <li>🔍 Advanced search</li>
-      <li>📑 Document management</li>
+      <li>📅 Tampilan garis waktu</li>
+      <li>🔍 Pencarian lanjutan</li>
+      <li>📑 Manajemen dokumen</li>
     </ul>
   </div>
 </div>
