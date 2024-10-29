@@ -12,7 +12,7 @@
     </a>
   </p>
   <div align="center">
-  <img src="https://via.placeholder.com/800x400" alt="Stunting App Preview">
+  <img src="./assets/homepage.jpg" alt="Stunting App Preview">
 </div>
   <p>Solusi modern untuk monitoring dan pendataan kasus stunting berbasis web 🚀</p>
 </div>
@@ -85,7 +85,7 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 ### 📊 System Flow
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400" alt="System Flow" style="max-width: 800px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="./assets/stunting_system_design.png" alt="System Flow" style="max-width: 800px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
 ### 🔄 Use Cases
@@ -93,7 +93,7 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 <table>
   <tr>
     <td width="60%">
-      <img src="https://via.placeholder.com/800x400" alt="Use Case Diagram" style="width:100%; border-radius: 8px;">
+      <img src="./assets/stunting_usecase.png" alt="Use Case Diagram" style="width:100%; border-radius: 8px;">
     </td>
     <td width="40%" valign="top">
       <h4>Actor: Petugas Kesehatan</h4>
@@ -112,19 +112,19 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 <div class="grid grid-cols-2 gap-4">
   <div class="flow-card">
     <h4>📝 Pendaftaran Anak</h4>
-    <imgsrc="https://via.placeholder.com/800x400" alt="Activity - Registration">
+    <img src="./assets/stunting_activity_1.png" alt="Activity - Registration">
   </div>
   <div class="flow-card">
     <h4>📏 Pengukuran Antropometri</h4>
-    <img src="https://via.placeholder.com/800x400" alt="Activity - Antropometri">
+    <img src="./assets/stunting_activity_2.png" alt="Activity - Antropometri">
   </div>
   <div class="flow-card">
     <h4>🏥 Riwayat Kesehatan</h4>
-    <img src="https://via.placeholder.com/800x400" alt="Activity - Health History">
+    <img src="/assets/stunting_activity_3.png" alt="Activity - Health History">
   </div>
   <div class="flow-card">
     <h4>📊 Analisis Data</h4>
-    <img src="https://via.placeholder.com/800x400" alt="Activity - Data Analysis">
+    <img src="/assets/stunting_activity_4.png" alt="Activity - Data Analysis">
   </div>
 </div>
 
@@ -132,17 +132,22 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 
 <details>
 <summary>📝 Pendaftaran Anak</summary>
-<img src="https://via.placeholder.com/800x400" alt="Sequence - Registration">
+<img src="/assets/stunting_sequence_1.png" alt="Sequence - Registration">
 </details>
 
 <details>
 <summary>📏 Pengukuran Antropometri</summary>
-<img src="https://via.placeholder.com/800x400" alt="Sequence - Antropometri">
+<img src="/assets/stunting_sequence_2.png" alt="Sequence - Antropometri">
 </details>
 
 <details>
 <summary>🏥 Riwayat Kesehatan</summary>
-<img src="https://via.placeholder.com/800x400" alt="Sequence - Health">
+<img src="/assets/stunting_sequence_3.png" alt="Sequence - Health">
+</details>
+
+<details>
+<summary>📊 Grafik Pertumbuhan</summary>
+<img src="/assets/stunting_sequence_4.png" alt="Sequence - Graph">
 </details>
 
 ### 📦 Data Model
@@ -150,12 +155,12 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 <table>
   <tr>
     <td width="50%">
-      <h4>Class Diagram</h4>
-      <img src="https://via.placeholder.com/800x400" alt="Class Diagram" style="width:100%;">
+      <h4>Contoh Class Diagram</h4>
+      <img src="./assets/stunting_class_1.png" alt="Class Diagram" style="width:100%;">
     </td>
     <td width="50%">
-      <h4>ERD</h4>
-      <img src="https://via.placeholder.com/800x400" alt="ERD" style="width:100%;">
+      <h4>Class Diagram Aplikasi Pendataan Stunting</h4>
+      <img src="./assets/stunting_class_2.png" alt="ERD" style="width:100%;">
     </td>
   </tr>
 </table>
@@ -163,19 +168,10 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 ### 🎨 UI/UX Design
 
 <div class="grid grid-cols-2 gap-4">
-  <div class="design-card">
-    <h4>📱 Dashboard</h4>
-    <img src="https://via.placeholder.com/800x400" alt="UI - Dashboard">
-    <ul>
-      <li>🎯 Overview status stunting</li>
-      <li>📊 Quick stats & metrics</li>
-      <li>🔔 Notifikasi & alerts</li>
-    </ul>
-  </div>
   
   <div class="design-card">
     <h4>📝 Form Pendaftaran</h4>
-    <img src="https://via.placeholder.com/800x400" alt="UI - Registration">
+    <img src="./assets/stunting_wireframe_1.png" alt="UI - Registration">
     <ul>
       <li>✨ Multi-step form</li>
       <li>🔄 Real-time validation</li>
@@ -185,7 +181,7 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
   
   <div class="design-card">
     <h4>📏 Antropometri</h4>
-    <img src="https://via.placeholder.com/800x400" alt="UI - Antropometri">
+    <img src="./assets/stunting_wireframe_2.png" alt="UI - Antropometri">
     <ul>
       <li>📈 Interactive charts</li>
       <li>🔄 Real-time updates</li>
@@ -195,7 +191,7 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
   
   <div class="design-card">
     <h4>🏥 Riwayat Kesehatan</h4>
-    <img src="https://via.placeholder.com/800x400" alt="UI - Health History">
+    <img src="./assets/stunting_wireframe_3.png" alt="UI - Health History">
     <ul>
       <li>📅 Timeline view</li>
       <li>🔍 Advanced search</li>
