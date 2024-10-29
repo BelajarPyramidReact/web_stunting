@@ -68,25 +68,20 @@ Dokumentasi desain sistem untuk Aplikasi Monitoring Stunting
 <table>
   <tr>
     <td width="50%">
-      <img src="https://via.placeholder.com/800x400" alt="System Overview" style="width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="./assets/stunting_system_design.png" alt="System Overview" style="width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td width="50%" valign="top">
-      <h4>Key Components</h4>
+      <h4>Komponen Utama</h4>
       <ul>
-        <li>🔐 Authentication System</li>
-        <li>📊 Data Management</li>
-        <li>📈 Analytics Engine</li>
-        <li>🔄 Real-time Updates</li>
+        <li>🧒 Pendaftaran Anak</li>
+        <li>📏 Pengukuran Antropometri</li>
+        <li>🩺 Riwayat Kesehatan</li>
+        <li>📈 Grafik Pertumbuhan</li>
+        <li>📝 Pelaporan</li>
       </ul>
     </td>
   </tr>
 </table>
-
-### 📊 System Flow
-
-<div align="center">
-  <img src="./assets/stunting_system_design.png" alt="System Flow" style="max-width: 800px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-</div>
 
 ### 🔄 Use Cases
 
